@@ -1,3 +1,23 @@
+# AI Based Air Drawing System
+### Using Hand Gesture Recognition and Machine Learning
+
+## 🎯 Project Demo
+Draw in the air using hand gestures — no mouse, touchscreen, or stylus needed!
+
+## 📊 Model Performance
+- Accuracy: 100%
+- Dataset: 18,000 training images (6 gesture classes)
+- Model: MobileNetV2 (Transfer Learning)
+
+## ⚙️ Setup
+1. Clone repo: `git clone https://github.com/Mahad1232-gr/AI-Air-Drawing-System`
+2. Install: `pip install -r requirements.txt`
+3. Download `gesture_model.keras` from Kaggle notebook output
+4. Place in `model/` folder
+5. Run: `python main.py`
+
+## 🤖 Tech Stack
+Python | TensorFlow | OpenCV | MediaPipe | Scikit-Learn
 # AI Based Air Drawing System Using Hand Gesture Recognition and Machine Learning
 
 A touchless drawing application that lets you draw in the air using hand
